@@ -1,27 +1,147 @@
 .main-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 4rem;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+    width: 980px;
 }
 
 .title {
     font-size: 48px;
-    font-weight: bold;
+    font-weight: bolder;
     color: blue;
     font-family: 'Arial';
+    padding: 112px 0 16px;
+
 }
 
 .subtitle {
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
 }
 
 .card {
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 1rem;
-    padding: 1rem;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    padding: 32px;
+    width: 500px;
 }
+
+.tkmk {
+    margin: auto;
+    padding: 6px 0;
+    display: flex;
+    position: relative;
+}
+
+.tkmk-item {
+    display: inline-block;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 100%; 
+    border-radius: 6px;   
+}
+
+.tkmk-item:has(.icon) {
+    display: inline-grid;
+    grid-template-columns: 1fr auto;
+}
+
+.tkmk input {
+    background: none;
+    border: 0;
+    box-shadow: none;
+    float: left;
+    font-size: 17px;
+    padding: 0;
+    width: 100%;
+}
+
+.dangnhap {
+    padding: 6px 0;
+}
+
+.dangnhap button{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+}
+
+.quenmk {
+    border: 0px;   
+    padding: 4px 0px 100px 0px;  
+    margin: 4px 0px 10px 0px; 
+    text-align: center;
+}
+
+.quenmk a {
+    text-decoration: none;
+    color: blue;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+}
+
+.more a {
+    cursor: pointer;
+    text-decoration: none;
+  
+}
+
+.hr {    
+    margin: 16px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid;
+    padding: 16px 0;
+    position: relative;
+    text-align: center;
+    text-shadow: none;
+    vertical-align: middle;
+ }
+
+ .hr a {
+    background-color: #42b72a;
+    text-decoration: none;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ .more {
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+ 
+
